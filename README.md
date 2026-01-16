@@ -15,7 +15,8 @@ The workflow is notebook-driven and designed for reproducibility and extensibili
 Install dependencies with:
 
 ```bash
-pip install -r requirements.txt
+pip install uv
+uv sync
 ```
 
 ## Project Structure

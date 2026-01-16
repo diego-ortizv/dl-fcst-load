@@ -77,7 +77,7 @@ The `downloader` module follows a **src-layout** structure:
 - Treated as a standalone Python package
 - Automatically installed when running:
   ```bash
-  pip install -r requirements.txt
+  uv sync
   ```
 - Imports assume the package is installed (no relative-path hacks)
 
